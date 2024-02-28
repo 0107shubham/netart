@@ -43,6 +43,7 @@ const Products = () => {
       <img
         className="img-product"
         src="https://res.cloudinary.com/drvjsegeb/image/upload/v1709038823/3_qpbapa.png"
+        alt="img1"
       />
       <p className="product-items">
         {"   "}

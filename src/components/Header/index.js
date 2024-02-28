@@ -7,12 +7,14 @@ const Header = () => {
         <img
           className="tropfyimg"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1709038811/1_ifins7.png"
+          alt="img1"
         />
       </div>
       <div className="header-info-cont">
         <img
           className="heading-img"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1709038801/logo_gcugzu.png"
+          alt="img1"
         />
         <p className="heading-awardinfo">
           C.R.I. PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 for the
@@ -34,11 +36,13 @@ const Header = () => {
         <img
           className="tropfyimg-small"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1709038811/1_ifins7.png"
+          alt="img1"
         />
 
         <img
           className="award-ceremony-img"
           src="https://res.cloudinary.com/drvjsegeb/image/upload/v1709038816/2_uuxwhx.png"
+          alt="img1"
         />
         <p className="award-info">
           Government of India has awarded the "National Energy Conservation
