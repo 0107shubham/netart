@@ -1,0 +1,89 @@
+.bg-header-cont {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.list-para {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 50px;
+}
+
+.heading-awardinfo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.tropfyimg {
+  width: 90%;
+  display: block;
+  height: 80%;
+  margin-top: 40%;
+}
+.tropfyimg-small {
+  display: none;
+}
+
+.award-ceremony-img {
+  height: 50%;
+  width: 100%;
+}
+
+.header-img-cont {
+  width: 30%;
+
+  height: 1440px;
+}
+
+.header-info-cont {
+  width: 70%;
+
+  height: 1440px;
+}
+
+.heading-img {
+  width: 100%;
+}
+
+.award-info {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .bg-header-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .tropfyimg-small {
+    display: block;
+    height: 550px;
+  }
+
+  .header-info-cont {
+    width: 100%;
+
+    height: 100%;
+  }
+
+  .tropfyimg {
+    display: none;
+  }
+  .award-ceremony-img {
+    width: 100%;
+    height: 550px;
+  }
+
+  .header-img-cont {
+    margin-top: 15%;
+    width: 30%;
+
+    height: 100%;
+    order: 2;
+  }
+
+  .heading-img {
+    width: 100%;
+  }
+}
